@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang=”es”>
+<head>
+    <meta charset=”UTF-8”>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+    <ul></li>
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+    <h1>¿Qué es la tecnología?</h1>
+    <ul><li>
+    <p>Qué es la tecnología? La tecnología es el conjunto de nociones y conocimientos científicos 
+        que el ser humano utiliza para lograr un objetivo preciso, que puede ser la solución de un problema especifico 
+        del individuo o la satisfacción de alguna de sus necesidades.</p>
+        <p>La tecnología es la suma de técnicas, habilidades, métodos y procesos utilizados en la producción de bienes o servicios o en el logro de objetivos, como la investigación científica.</p>
+        <ul><ul>
+    <form action=”procesar_formulario.php” method=”post”>
+        <label for=”nombre”>Nombre:</label><br>
+        <input type=”text” id=”nombre” name=”nombre” required><br><br>
+
+        <label for=”email”>Correo Electrónico:</label><br>
+        <input type=”email” id=”email” name=”email” required><br><br>
+
+        <label for=”mensaje”>Mensaje:</label><br>
+        <textarea id=”mensaje” name=”mensaje” rows=”5” cols=”40” required></textarea><br><br>
+
+        <input type=”submit” value="Enviar">
+    </form>
+</body>
+</html>
